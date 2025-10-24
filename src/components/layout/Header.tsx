@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header className='fixed left-0 w-full px-6 py-4 text-2xl font-bold text-white bg-pink-300'>
+    <header className="top-0 left-0 w-full bg-pink-300 border-white fixed  h-12 text-white text-2xl items-center ">
       メモアプリ!
     </header>
   )

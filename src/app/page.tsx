@@ -1,11 +1,12 @@
-import Image from "next/image";
+"use client"
+import { useState } from "react"
 
 export default function Home() {
-  return (
-  
-      <div>
+    const [memo, setMemo] = useState("");
 
-        jjjjj
+  return (
+    <div className="py-4">
+      {memo}
     </div>
   );
 }
